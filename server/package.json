@@ -1,0 +1,17 @@
+{
+  "name": "ots-wallet-server",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.cjs",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@otsblockchain/lib": "1.4.1",
+    "argon2": "^0.44.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.5"
+  }
+}
